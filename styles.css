@@ -1,0 +1,423 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+/* first section */
+hr{
+    padding: 0;
+    margin: 0;
+    border:none;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 20px 20px -20px #333;
+}
+.first-section{
+    background: linear-gradient(to right,#fff);
+}
+.container-fluid{
+    padding: 9% 7% 0;
+}
+.laptop-img{
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
+.phone-img{
+    position: relative;
+    bottom: 400px;
+    right: 15px;
+}
+.tab-img{
+    position: relative;
+    bottom: 250px;
+    left: 80px;
+}
+.watch-video{
+    color: #fff;
+}
+/* navigation bar section */
+.navigation{
+    padding: 0 3%;
+}
+.navbar{
+    background-color: #fff;
+    padding: 0 5%;
+    margin: 0;
+    opacity: 80%;
+}
+.fixed-top{
+    position: fixed;
+}
+.navbar-brand{
+    font-family: "Playfair Display";
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+.row{
+    padding: 3% 0 7%;
+}
+/* heading section */
+.heading{
+    font-size: 6.5rem;
+}
+.sub-heading{
+    font-size: 2rem;
+    opacity: 80%;
+    padding: 3% 0;
+}
+.download-button{
+    margin: 2% 3% 2% 0;
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+    border-color: black;
+}
+.Learn , .help{
+    color:blue;
+}
+.love{
+    padding: 4% 0;
+}
+.navi{
+    color: black;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.bb{
+    color: black;
+    font-weight: bold;
+}
+.cursor{
+    color: black;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+}
+/* second section */
+.cf-2{
+    padding: 0 5%;
+}
+.second-section{
+    background-color: #A084DC;
+}
+.follower-box{
+    padding: 5%;
+}
+.count{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.social{
+    text-align: center;
+    font-size: 2rem;
+    opacity: 100%;
+}
+.anchor{
+    color: blue;
+    font-weight: bolder;
+    opacity: 100%;
+}
+/* third section */
+.third-section{
+    background: linear-gradient(to right,#fff);
+}
+.why-make{
+    padding: 7%;
+}
+.why{
+    text-align: center;
+    font-size: 2.5rem;
+    opacity: 100%;
+    font-weight: bolder;
+    color: blue;
+}
+.make{
+    text-align: center;
+    font-size: 3.5rem;
+    opacity: 100%;
+    font-weight: bold;
+}
+.card-body{
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 2.5rem;
+}
+.cd-heading{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 3% 0;
+    color: blue;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-radius: 2.5rem;
+
+}
+.para{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    padding: 3% 0;
+}
+.card-deck{
+    padding: 5% 5%;
+}
+/* fourth section */
+#fourth-section{
+    text-align: center;
+    background: linear-gradient(to right,#fff);
+}
+.Instructor{
+    color: blue;
+}
+.fourth-1{
+    padding: 5%;
+}
+.fourth-2{
+    padding: 3%;
+}
+.babbar{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.babbar-img{
+    padding: 2%;
+    width: 400px;
+    height: 400px;
+}
+.babbar-image{
+    float: left;
+    margin-right: 3.5rem;
+}
+.about-babbar{
+    font-size: 2rem;
+    opacity: 60%;
+    font-weight: bold;
+}
+.loveB{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.LoveB{
+    opacity: 60%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.fourth-box{
+    padding: 2%;
+}
+.company-name{
+    opacity: 60%;
+    font-size: 2rem;
+}
+/* fifth section */
+.fifth-section{
+    background: linear-gradient(to right,#fff);
+    text-align: center;
+}
+.fifth-heading{
+    opacity: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.fifth-1{
+    padding: 7% 5%;
+}
+.placement{
+    padding: 2% 0;
+    opacity: 80%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+}
+.fifth-para{
+    padding: 2% 0;
+    opacity: 80%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: grey;
+}
+.fifth-2{
+    padding: 7% 5%;
+}
+.row{
+    padding: 0;
+}
+.companies-img{
+    width: 300px;
+    height: 300px;
+}
+/* sixth section */
+#sixth-section{
+    padding: 3%;
+    background: linear-gradient(to right,#fff);
+}
+.sixth-heading{
+    text-align: center;
+    padding: 2% 2%;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.learn{
+    color: blue;
+}
+.para-6{
+    padding: 3%;
+    margin: 0;
+}
+.para6-1{
+    padding: 3% 3% 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.para6-2{
+    padding: 0 3%;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* seventh section */
+.seventh-section{
+    background: linear-gradient(to right,#fff);
+}
+.seventh-1{
+    text-align: center;
+}
+.seventh-2{
+    margin: 0 0 2%;
+    padding: 0 0 2%;
+}
+.heading-7{
+    padding: 5% 0 0;
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.para-7{
+    padding: 2%;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 60%;
+}
+.icons1{
+    font-size: 3.5rem;
+    color: red;
+}
+.icons2{
+    font-size: 3.5rem;
+    color: blue;
+}
+.icons3{
+    font-size: 3.5rem;
+    color: purple;
+}
+.icons4{
+    font-size: 3.5rem;
+    color: blue;
+}
+.family1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+}
+.family2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: blue;
+}
+.family3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: purple;
+}
+.family4{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: blue;
+}
+/* eighth section */
+#eighth-section{
+    background-color: #A084DC;
+    padding: 2% 5% 0;
+}
+.eight{
+    padding: 7% 7% 0;
+}
+.heading-8{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    opacity: 90%;
+    text-align: center;
+}
+.para-8{
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 80%;
+    color: black;
+    text-align: center;
+}
+.email{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    opacity: 80%;
+}
+.list-8{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    opacity: 95%;
+}
+.footer{
+    padding: 1% 3%;
+    color: #fff;
+    opacity: 80%;
+}
+.footer-8{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.eight-1 , .eight-2 , .eight-3{
+    padding: 2%;
+} 
+@media(max-width:1028px){
+    .first-section{
+        text-align: center;
+    }
+    .fifth-section{
+        text-align: center;
+        width: 100%;
+    }
+    .human-img ,.laptop-img , .phone-img , .tab-img{
+        position: static;
+        max-width: 100%;
+    }
+}
