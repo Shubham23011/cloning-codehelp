@@ -43,7 +43,7 @@ hr{
 .navbar{
     background-color: #fff;
     padding: 0 5%;
-    margin: 0;
+    margin: 0 0 5%;
     opacity: 80%;
 }
 .fixed-top{
@@ -68,6 +68,7 @@ hr{
 /* heading section */
 .heading{
     font-size: 4rem;
+    padding : 3%;
 }
 .sub-heading{
     font-size: 2rem;
