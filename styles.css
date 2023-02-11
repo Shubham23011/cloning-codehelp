@@ -47,7 +47,8 @@ hr{
 .navbar{
     background-color: #fff;
     padding: 0 5%;
-    margin: 0 0 7%;
+    margin: auto;
+    width: 100%;
     opacity: 80%;
 }
 .fixed-top{
